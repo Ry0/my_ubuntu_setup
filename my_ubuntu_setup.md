@@ -69,8 +69,8 @@ sudo sh JPNKIT/INSTALL
 
 ```
 sudo apt-get install git
-git config --global user.name "Arita Yuta"
-git config --global user.email k104009y@mail.kyutech.jp 
+git config --global user.name "User Name"
+git config --global user.email mailaddress@domain.com 
 ```
 
 ## CapsLockキーを追加のCtrlキーとして使う
