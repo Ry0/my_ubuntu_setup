@@ -18,12 +18,13 @@ $ sudo opencv_install.sh
 サンプルを動かしてみる。
 
 ```
-$ cmake .
-$ make
-$ ./test
+$ cd ~/Downloads/opencv-xxx/samples/c
+$ sudo chmod 666 build_all.sh
+$ sh build_all.sh
+$ ./facedetect --cascade="/usr/local/share/OpenCV/haarcascades/haarcascade_frontalface_alt.xml" --scale=1.5 lena.jpg
 ```
 
-進捗ダメですが表示できればとりあえずインストールできていると思う。
+レナさんの顔が検出できれば多分インストールに成功してると思います。
 
 ---
 respect for Ryodo Tanaka.
