@@ -25,6 +25,7 @@ $ ./facedetect --cascade="/usr/local/share/OpenCV/haarcascades/haarcascade_front
 ```
 
 レナさんの顔が検出できれば多分インストールに成功してると思います。
+インストール後はダウンロードしたソースコードなどは削除して構いません。
 
 ---
 respect for Ryodo Tanaka.
