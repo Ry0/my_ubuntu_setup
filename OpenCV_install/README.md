@@ -18,8 +18,8 @@ $ sudo sh opencv_install.sh
 サンプルを動かしてみる。
 
 ```
+$ sudo chmod 777 ~/Downloads/opencv-xxx/samples/c
 $ cd ~/Downloads/opencv-xxx/samples/c
-$ sudo chmod 666 build_all.sh
 $ sh build_all.sh
 $ ./facedetect --cascade="/usr/local/share/OpenCV/haarcascades/haarcascade_frontalface_alt.xml" --scale=1.5 lena.jpg
 ```
