@@ -5,6 +5,7 @@
 env LANGUAGE=C LC_MESSAGES=C xdg-user-dirs-gtk-update
 ```
 
+
 ![img](./img/user_folder_name.png)  
 ##ubuntu_setup.shの実行
 * 環境 Ubuntu 14.04 64bit
@@ -17,6 +18,7 @@ git clone https://github.com/Ry0/my_ubuntu_setup.git
 cd my_ubuntu_setup/ubuntu_application
 sudo sh ubuntu_application.sh
 ```
+
 
 ##ubuntu_setup.shの内容
 このスクリプトで入るソフト
@@ -71,6 +73,7 @@ wineとjavaに関しては途中で同意が必要
 サポートが終了しているので注意してインストールする。  
 **参考サイト**: [http://sicklylife.at-ninja.jp/memo/ubuntu1404/settings.html#adobereader](http://sicklylife.at-ninja.jp/memo/ubuntu1404/settings.html#adobereader)
 
+
 ```bash
 wget http://ardownload.adobe.coSm/pub/adobe/reader/unix/9.x/9.5.5/enu/AdbeRdr9.5.5-1_i386linux_enu.deb
 sudo dpkg -i AdbeRdr9.5.5-1_i386linux_enu.deb
@@ -82,6 +85,7 @@ tar xavf FontPack910_jpn_i486-linux.tar.bz2
 sudo sh JPNKIT/INSTALL
 ```
 
+
 ### git
 
 ```bash
@@ -89,6 +93,7 @@ sudo apt-get install git
 git config --global user.name "User Name"
 git config --global user.email mailaddress@domain.com 
 ```
+
 
 ### ssh-keyの設定
 
@@ -102,6 +107,7 @@ ssh-add ~/.ssh/id_rsa
 ```
 
 **[続き]**→[https://help.github.com/articles/generating-ssh-keys/#step-4-add-your-ssh-key-to-your-account](https://help.github.com/articles/generating-ssh-keys/#step-4-add-your-ssh-key-to-your-account)
+
 
 ###VMwareでUbuntu上で仮想Ubuntu環境を作成
 まずVMware Player無償版をダウンロード  
@@ -123,6 +129,7 @@ sudo ./vmware-install.pl
 
 再起動したら画面サイズ等がピッタリあうようになるはず。
 
+
 ###IMEの変更
 うまくいけば、Mozcが強化されるけどUbuntuがぶっこわれる可能性もひめているので気をつけること。  
 [http://ubuntu.hatenablog.jp/entry/20140810/1407654294](http://ubuntu.hatenablog.jp/entry/20140810/1407654294)  
@@ -131,6 +138,17 @@ sudo ./vmware-install.pl
 
 ![img](./img/mozc.png)  
 
+
+###.bashrcにエイリアスを追加
+`.bashrc`によく使うコマンドのショートカットを追加。
+
+```bash
+#ショートカットを設定
+alias update='sudo apt-get update'
+alias upgrade='sudo apt-get upgrade'
+alias install='sudo apt-get install'
+alias cmakeclean='rm CMakeCache.txt cmake_install.cmake && rm -r CMakeFiles && rm Makefile'
+```
 
 ### CapsLockキーを追加のCtrlキーとして使う
 
@@ -145,7 +163,7 @@ xinput --list --short
 ```
 
 マウスの項目を探す`Logitech Unifying Device. Wireless PID:101b id=11 [slave  pointer  (2)]`
-自動起動するアプリケーションに以下を登録する
+自動起動するアプリケーションに以下を登録する。
 
 ```bash
 xinput --set-prop "id" "Device Accel Constant Deceleration" 3
