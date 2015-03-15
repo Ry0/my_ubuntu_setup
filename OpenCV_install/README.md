@@ -7,9 +7,9 @@
 
 `opencv_install.sh`の最初のインストールバージョンを確認する。
 
-```
-$ git clone https://github.com/AriYu/my_ubuntu_setup.git
-$ cd my_ubuntu_setupd/OpenCV_install
+```bash
+$ git clone https://github.com/Ry0/my_ubuntu_setup.git
+$ cd my_ubuntu_setup/OpenCV_install
 $ sudo sh opencv_install.sh
 ```
 
@@ -17,7 +17,7 @@ $ sudo sh opencv_install.sh
 
 サンプルを動かしてみる。
 
-```
+```bash
 $ sudo chmod 777 ~/Downloads/opencv-xxx/samples/c
 $ cd ~/Downloads/opencv-xxx/samples/c
 $ sh build_all.sh
