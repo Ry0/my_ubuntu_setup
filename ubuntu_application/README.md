@@ -18,7 +18,7 @@ cd my_ubuntu_setup/ubuntu_application
 sudo sh ubuntu_application.sh
 ```
 
-##ubuntu_setup.shの実行
+##ubuntu_setup.shの内容
 このスクリプトで入るソフト
 
 |パッケージ名|説明|参考サイト|
