@@ -1,10 +1,10 @@
 # インストールするOpenCVのバージョン
 OPENCV_VERSION="2.4.10"
-# 最初は前提ソウエアのインストール
+# 最初は前提ソフトウェアのインストール
 sudo apt-get -yV install build-essential
 
-sudo apt-get -yV install opencl-headers 
-# 
+sudo apt-get -yV install opencl-headers
+#
 sudo apt-get -yV install libjpeg-dev
 sudo apt-get -yV install libopenjpeg-dev
 sudo apt-get -yV install jasper
@@ -28,15 +28,15 @@ sudo apt-get -yV install libglui-dev
 sudo apt-get -yV install libavc1394-dev libdc1394-22-dev libdc1394-utils
 sudo apt-get -yV install libgtk2.0-dev
 sudo apt-get -yV install pkg-config
-# ビデオ関係のパッケージ 
+# ビデオ関係のパッケージ
 sudo apt-get -yV install libxine-dev
-sudo apt-get -yV install libxvidcore-dev 
+sudo apt-get -yV install libxvidcore-dev
 sudo apt-get -yV install libva-dev
 sudo apt-get -yV install libssl-dev
 sudo apt-get -yV install libv4l-dev
 sudo apt-get -yV install libvo-aacenc-dev
-sudo apt-get -yV install libvo-amrwbenc-dev 
-sudo apt-get -yV install libvorbis-dev 
+sudo apt-get -yV install libvo-amrwbenc-dev
+sudo apt-get -yV install libvorbis-dev
 sudo apt-get -yV install libvpx-dev
 
 cd ~/Downloads

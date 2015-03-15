@@ -1,8 +1,8 @@
 # my_ubuntu_setup
 
-## `apt-get`で入るソフトウェアとか設定とか
+## apt-getで入るソフトウェアとか設定とか
 
-[my_ubuntu_setup](./my_ubuntu_setup.md)
+[my_ubuntu_setup](./ubuntu_application/README.md)
 
 ## OpenCVのインストール
 
