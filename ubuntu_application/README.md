@@ -40,6 +40,7 @@ sudo sh ubuntu_application.sh
 |gnuplot|グラフプロット|[]()|
 |easystroke|マウスのボタン設定|[http://mimikakimemo.hatenablog.jp/entry/2012/11/24/022457](http://mimikakimemo.hatenablog.jp/entry/2012/11/24/022457)|
 |skype|チャットツール|[]()|
+|google-chrome-stable|firefoxのサブ|[]()|
 |kazam|画面キャプチャーソフト|[]()|
 |audacious|高音質？音楽プレーヤ|[http://blog.goo.ne.jp/hiros-pc/e/c7a272e8c4eb2396225fa1a9dd6e1639](http://blog.goo.ne.jp/hiros-pc/e/c7a272e8c4eb2396225fa1a9dd6e1639)|
 |vlc|定番動画プレイヤー|[]()|
