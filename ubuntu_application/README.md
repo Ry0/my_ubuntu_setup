@@ -43,6 +43,7 @@ sudo sh ubuntu_application.sh
 |kazam|画面キャプチャーソフト|[]()|
 |audacious|高音質？音楽プレーヤ|[http://blog.goo.ne.jp/hiros-pc/e/c7a272e8c4eb2396225fa1a9dd6e1639](http://blog.goo.ne.jp/hiros-pc/e/c7a272e8c4eb2396225fa1a9dd6e1639)|
 |vlc|定番動画プレイヤー|[]()|
+|smplayer|vlcでは再生がうまくできなかったときの控え選手|[]()|
 |pcsx2|PS2エミュレータ|[]()|
 |indicator-multiload|システム情報をパネルに表示|[http://ubuntuapps.blog67.fc2.com/blog-entry-281.html](http://ubuntuapps.blog67.fc2.com/blog-entry-281.html)|
 |exfat-fuse exfat-utils|ストレージのexfatフォーマットに対応|[]()|
