@@ -22,7 +22,7 @@ sudo sh ubuntu_application.sh
 このスクリプトで入るソフト
 
 |パッケージ名|説明|参考サイト|
-|:-|:-|:-|
+|:--|:--|:--|
 |nemo|プラグインとしてnemo-dropbox nemo-emblems nemo-image-converterが入る|[http://www.webupd8.org/2014/08/nemo-emblems-folder-color-image.html](http://www.webupd8.org/2014/08/nemo-emblems-folder-color-image.html)|
 |sublime-text|おすすめエディタ|[http://ry0.github.io/blog/2015/02/15/install-sublimetext2/](http://ry0.github.io/blog/2015/02/15/install-sublimetext2/)|
 |emacs24|定番エディタ|[]()|
