@@ -19,6 +19,9 @@ yes | sudo add-apt-repository ppa:eugenesan/ppa
 yes | sudo add-apt-repository ppa:webupd8team/java
 #skype
 sudo sh -c "echo 'deb http://archive.canonical.com/ubuntu/ trusty partner' >> /etc/apt/sources.list.d/canonical_partner.list"
+#google chrome
+wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
 
 #Update
 sudo apt-get update
@@ -39,6 +42,7 @@ sudo apt-get -yV install inkscape
 sudo apt-get -yV install gnuplot-x11
 sudo apt-get -yV install easystroke
 sudo apt-get -yV install skype
+sudo apt-get -yV install google-chrome-stable
 sudo apt-get -yV install kazam
 sudo apt-get -yV install audacious
 sudo apt-get -yV install vlc
