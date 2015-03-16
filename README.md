@@ -1,5 +1,7 @@
 # my_ubuntu_setup
 
+- Ubuntu 14.04(日本語Rimix)
+
 ## apt-getで入るソフトウェアとか設定とか
 
 [my_ubuntu_setup](./ubuntu_application/README.md)
@@ -10,12 +12,18 @@
 
 ## ROSのインストール
 
-まだ
+http://wiki.ros.org/indigo/Installation/Ubuntu
 
 ## PCLのインストール
 
-まだ
+http://pointclouds.org/downloads/linux.html (2015.3.16)
+
+```
+sudo add-apt-repository ppa:v-launchpad-jochen-sprickerhof-de/pcl
+sudo apt-get update
+sudo apt-get install libpcl-all
+```
 
 ## TeXのインストール
 
-まだ
+[tex_install](./tex_install/README.md)
