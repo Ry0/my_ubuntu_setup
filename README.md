@@ -1,6 +1,6 @@
 # my_ubuntu_setup
 
-- Ubuntu 14.04(日本語Rimix)
+- Ubuntu 14.04(日本語Remix)
 
 ## apt-getで入るソフトウェアとか設定とか
 
