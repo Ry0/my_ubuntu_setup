@@ -35,3 +35,15 @@ sudo apt-get install libpcl-all
 Ubuntu Tweak -> Tweaks -> Unity -> HUD をオフにする。
 
 - `firefox develop edition`のインストール
+
+```
+sudo apt-get install gnome-panel
+```
+
+Download firefox develop edition
+
+```
+sudo cp -r /from_where_it_is /opt/firefox_dev
+gnome-desktop-item-edit ~/.local/share/applications --create-new
+```
+
