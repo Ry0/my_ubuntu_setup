@@ -33,3 +33,5 @@ sudo apt-get install libpcl-all
 - `Alt`キーでコマンドを入力を出さないようにする
 
 Ubuntu Tweak -> Tweaks -> Unity -> HUD をオフにする。
+
+- `firefox develop edition`のインストール
