@@ -27,3 +27,11 @@ sudo apt-get install libpcl-all
 ## TeXのインストール
 
 [tex_install](./tex_install/README.md)
+
+## その他の設定
+
+- `Alt`キーでコマンドを入力を出さないようにする
+
+Ubuntu Tweak -> Tweaks -> Unity -> HUD をオフにする。
+
+- `firefox develop edition`のインストール
