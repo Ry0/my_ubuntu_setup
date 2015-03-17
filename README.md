@@ -30,6 +30,6 @@ sudo apt-get install libpcl-all
 
 ## その他の設定
 
-### `Alt`キーでコマンドを入力を出さないようにする
+- `Alt`キーでコマンドを入力を出さないようにする
 
 Ubuntu Tweak -> Tweaks -> Unity -> HUD をオフにする。
