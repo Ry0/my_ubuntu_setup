@@ -4,7 +4,7 @@ cd tex_install_script
 ./install-tl << EOF
 I
 EOF
-sudo /usr/local/texlive/2013/bin/x86_64-linux/tlmgr path add
+sudo /usr/local/texlive/2014/bin/x86_64-linux/tlmgr path add
 sudo mkdir -p /usr/local/texlive/texmf-local/web2c
 sudo cp ./texmf.cnf /usr/local/texlive/texmf-local/web2c/texmf.cnf
 sudo mktexlsr
