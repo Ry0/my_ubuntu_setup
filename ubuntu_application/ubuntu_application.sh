@@ -13,6 +13,8 @@ yes | sudo add-apt-repository ppa:otto-kesselgulasch/gimp
 yes | sudo apt-add-repository ppa:gregory-hainaut/pcsx2.official.ppa
 #indicator-multiload
 yes | sudo add-apt-repository ppa:indicator-multiload/stable-daily
+# Indicator-Sensor
+yes | sudo apt-add-repository ppa:alexmurray/indicator-sensors
 #smartgit
 yes | sudo add-apt-repository ppa:eugenesan/ppa
 #Oracle Java 8
@@ -49,6 +51,7 @@ sudo apt-get -yV install vlc
 sudo apt-get -yV install smplayer
 sudo apt-get -yV install pcsx2
 sudo apt-get -yV install indicator-multiload
+sudo apt-get -yV install indicator-sensors
 sudo apt-get -yV install exfat-fuse exfat-utils
 sudo apt-get -yV install smartgit
 sudo apt-get -yV install unrar rar
