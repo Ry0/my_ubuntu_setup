@@ -173,3 +173,21 @@ xinput --set-prop "id" "Device Accel Constant Deceleration" 3
 ```
 
 idのところにidを指定する。
+
+###Altキーでコマンドを入力を出さないようにする
+
+Ubuntu Tweak -> Tweaks -> Unity -> HUD をオフにする。
+
+###firefox develop editionのインストール
+
+```
+sudo apt-get install gnome-panel
+```
+
+Download firefox develop edition
+
+```
+sudo cp -r /from_where_it_is /opt/firefox_dev
+gnome-desktop-item-edit ~/.local/share/applications --create-new
+```
+
