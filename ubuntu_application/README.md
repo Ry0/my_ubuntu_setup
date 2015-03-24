@@ -128,6 +128,7 @@ sudo bash VMware-Player-7.1.0-xxxxxxx.x86_64.bundle
 
 ```bash
 tar xzvf /media/$USER/VMware\ Tools/VMwareTools-x.x.x-xxxxxxx.tar.gz
+cd vmware-tools-distrib
 sudo ./vmware-install.pl
 ```
 
