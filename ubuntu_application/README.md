@@ -13,6 +13,7 @@ env LANGUAGE=C LC_MESSAGES=C xdg-user-dirs-gtk-update
 * 適宜、下の一覧を見て必要ないなと思うパッケージはスクリプトから消すこと
 
 スクリプトは以下のコマンドで実行
+
 ```bash
 git clone https://github.com/Ry0/my_ubuntu_setup.git
 cd my_ubuntu_setup/ubuntu_application
@@ -57,6 +58,7 @@ sudo sh ubuntu_application.sh
 
 wineとjavaに関しては途中で同意が必要  
 あと最後以下のようなメッセージが出たら、`Enter`を押す。
+
 ```bash
   選択肢    パス                           優先度  状態
 ------------------------------------------------------------
@@ -75,7 +77,6 @@ wineとjavaに関しては途中で同意が必要
 ### Adobe Reader
 サポートが終了しているので注意してインストールする。  
 **参考サイト**: [http://sicklylife.at-ninja.jp/memo/ubuntu1404/settings.html#adobereader](http://sicklylife.at-ninja.jp/memo/ubuntu1404/settings.html#adobereader)
-
 
 ```bash
 wget http://ardownload.adobe.coSm/pub/adobe/reader/unix/9.x/9.5.5/enu/AdbeRdr9.5.5-1_i386linux_enu.deb
