@@ -47,6 +47,7 @@ sudo sh ubuntu_application.sh
 |vlc|定番動画プレイヤー|[]()|
 |smplayer|vlcでは再生がうまくできなかったときの控え選手|[]()|
 |pcsx2|PS2エミュレータ|[]()|
+|GRhino|オセロゲーム。リフレッシュにでも|[]()|
 |indicator-multiload|システム情報をパネルに表示|[http://ubuntuapps.blog67.fc2.com/blog-entry-281.html](http://ubuntuapps.blog67.fc2.com/blog-entry-281.html)|
 |indicator-sensors|タスクバーにCPU、グラボの温度、ファンの負荷を表示|[http://techlack.hatenablog.com/entry/2015/02/03/075501](http://techlack.hatenablog.com/entry/2015/02/03/075501)|
 |exfat-fuse exfat-utils|ストレージのexfatフォーマットに対応|[]()|

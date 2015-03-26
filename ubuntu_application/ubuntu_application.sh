@@ -50,6 +50,7 @@ sudo apt-get -yV install audacious
 sudo apt-get -yV install vlc
 sudo apt-get -yV install smplayer
 sudo apt-get -yV install pcsx2
+sudo apt-get -yV install grhino
 sudo apt-get -yV install indicator-multiload
 sudo apt-get -yV install indicator-sensors
 sudo apt-get -yV install exfat-fuse exfat-utils
