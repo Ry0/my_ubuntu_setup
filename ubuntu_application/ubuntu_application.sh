@@ -13,8 +13,10 @@ yes | sudo add-apt-repository ppa:otto-kesselgulasch/gimp
 yes | sudo apt-add-repository ppa:gregory-hainaut/pcsx2.official.ppa
 #indicator-multiload
 yes | sudo add-apt-repository ppa:indicator-multiload/stable-daily
-# Indicator-Sensor
+#indicator-sensor
 yes | sudo apt-add-repository ppa:alexmurray/indicator-sensors
+#indicator-sound-switcher
+yes | sudo apt-add-repository ppa:yktooo/ppa
 #smartgit
 yes | sudo add-apt-repository ppa:eugenesan/ppa
 #Oracle Java 8
@@ -32,6 +34,7 @@ sudo apt-get update
 sudo apt-get -yV install nemo nemo-dropbox nemo-emblems nemo-image-converter
 sudo apt-get -yV install sublime-text
 sudo apt-get -yV install emacs24
+sudo apt-get -yV install meld
 sudo apt-get -yV install terminator
 sudo apt-get -yV install ubuntu-tweak
 sudo apt-get -yV install compizconfig-settings-manager
@@ -54,6 +57,7 @@ sudo apt-get -yV install pcsx2
 sudo apt-get -yV install grhino
 sudo apt-get -yV install indicator-multiload
 sudo apt-get -yV install indicator-sensors
+sudo apt-get -yV install indicator-sound-switcher
 sudo apt-get -yV install exfat-fuse exfat-utils
 sudo apt-get -yV install smartgit
 sudo apt-get -yV install unrar rar

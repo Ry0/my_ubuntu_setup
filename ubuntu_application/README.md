@@ -29,6 +29,7 @@ sudo sh ubuntu_application.sh
 |nemo|プラグインとしてnemo-dropbox nemo-emblems nemo-image-converterが入る|[http://www.webupd8.org/2014/08/nemo-emblems-folder-color-image.html](http://www.webupd8.org/2014/08/nemo-emblems-folder-color-image.html)|
 |sublime-text|おすすめエディタ|[http://ry0.github.io/blog/2015/02/15/install-sublimetext2/](http://ry0.github.io/blog/2015/02/15/install-sublimetext2/)|
 |emacs24|定番エディタ|[]()|
+|meld|差分ビューア|[]()|
 |terminator|標準ターミナルの拡張版|[]()|
 |ubuntu-tweak|デフォルトで起動するソフトを拡張子ごとに変更するのに使用|[]()|
 |compizconfig-settings-manager|ウィンドウの最小化、Unity透明化等|[http://ubuntuapps.blog67.fc2.com/blog-entry-634.html](http://ubuntuapps.blog67.fc2.com/blog-entry-634.html)[http://ubuntuapps.blog67.fc2.com/blog-entry-689.html](http://ubuntuapps.blog67.fc2.com/blog-entry-689.html)|
@@ -51,6 +52,7 @@ sudo sh ubuntu_application.sh
 |GRhino|オセロゲーム。リフレッシュにでも|[]()|
 |indicator-multiload|システム情報をパネルに表示|[http://ubuntuapps.blog67.fc2.com/blog-entry-281.html](http://ubuntuapps.blog67.fc2.com/blog-entry-281.html)|
 |indicator-sensors|タスクバーにCPU、グラボの温度、ファンの負荷を表示|[http://techlack.hatenablog.com/entry/2015/02/03/075501](http://techlack.hatenablog.com/entry/2015/02/03/075501)|
+|indicator-sound-switcher|タスクバーから音声出力を切り替え|[http://moebuntu.blog48.fc2.com/blog-entry-748.html](http://moebuntu.blog48.fc2.com/blog-entry-748.html)
 |exfat-fuse exfat-utils|ストレージのexfatフォーマットに対応|[]()|
 |smartgit|GUIのgit管理ソフト|[http://thjap.org/linux/ubuntu/6309.html](http://thjap.org/linux/ubuntu/6309.html)|
 |unrar rar|書庫マネージャをrar対応にさせる|[]()|
@@ -115,7 +117,7 @@ ssh-add ~/.ssh/id_rsa
 **[続き]**→[https://help.github.com/articles/generating-ssh-keys/#step-4-add-your-ssh-key-to-your-account](https://help.github.com/articles/generating-ssh-keys/#step-4-add-your-ssh-key-to-your-account)
 
 
-###VMwareでUbuntu上で仮想Ubuntu環境を作成
+###VMwareを使ってUbuntu上で仮想Ubuntu環境を作成
 まずVMware Player無償版をダウンロード  
 [https://my.vmware.com/jp/web/vmware/free#desktop_end_user_computing/vmware_player/7_0](https://my.vmware.com/jp/web/vmware/free#desktop_end_user_computing/vmware_player/7_0)  
 VMware Player for Linux 64-bit Linuxをダウンロード、ダウンロードしてきたファイルがあるディレクトリで以下を実行してインストール
@@ -184,14 +186,13 @@ Ubuntu Tweak -> Tweaks -> Unity -> HUD をオフにする。
 
 ###firefox develop editionのインストール
 
-```
+```bash
 sudo apt-get install gnome-panel
 ```
 
 Download firefox develop edition
 
-```
+```bash
 sudo cp -r /from_where_it_is /opt/firefox_dev
 gnome-desktop-item-edit ~/.local/share/applications --create-new
 ```
-
