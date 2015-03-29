@@ -39,6 +39,7 @@ sudo apt-get -yV install unity-tweak-tool
 sudo apt-get -yV install synaptic
 sudo apt-get -yV install gnome-tweak-tool
 sudo apt-get -yV install fontforge
+sudo apt-get -yV install nkf
 sudo apt-get -yV install gimp
 sudo apt-get -yV install inkscape
 sudo apt-get -yV install gnuplot-x11

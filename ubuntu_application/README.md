@@ -36,6 +36,7 @@ sudo sh ubuntu_application.sh
 |synaptic|パッケージマネージャ|[]()|
 |gnome-tweak-tool|もうほとんど使わないかも|[]()|
 |fontforge|フォントを結合するとき用|[http://galaxy-shw-m110s.blogspot.jp/2011/12/galaxyflipfontno.html](http://galaxy-shw-m110s.blogspot.jp/2011/12/galaxyflipfontno.html)|
+|nkf|文字コード変換|http://itpro.nikkeibp.co.jp/article/COLUMN/20060227/230849/|
 |gimp|画像編集|[]()|
 |inkscape|作図用|[]()|
 |gnuplot|グラフプロット|[]()|
