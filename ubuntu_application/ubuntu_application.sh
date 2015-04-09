@@ -19,6 +19,8 @@ yes | sudo apt-add-repository ppa:alexmurray/indicator-sensors
 yes | sudo apt-add-repository ppa:yktooo/ppa
 #smartgit
 yes | sudo add-apt-repository ppa:eugenesan/ppa
+#slack
+yes | sudo apt-add-repository ppa:rael-gc/scudcloud
 #Oracle Java 8
 yes | sudo add-apt-repository ppa:webupd8team/java
 #skype
@@ -60,6 +62,7 @@ sudo apt-get -yV install indicator-sensors
 sudo apt-get -yV install indicator-sound-switcher
 sudo apt-get -yV install exfat-fuse exfat-utils
 sudo apt-get -yV install smartgit
+sudo apt-get -yV install scudcloud
 sudo apt-get -yV install unrar rar
 sudo apt-get -yV install gparted
 sudo apt-get -yV install wine

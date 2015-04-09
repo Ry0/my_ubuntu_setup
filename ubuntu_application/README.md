@@ -55,6 +55,7 @@ sudo sh ubuntu_application.sh
 |indicator-sound-switcher|タスクバーから音声出力を切り替え|[http://moebuntu.blog48.fc2.com/blog-entry-748.html](http://moebuntu.blog48.fc2.com/blog-entry-748.html)
 |exfat-fuse exfat-utils|ストレージのexfatフォーマットに対応|[]()|
 |smartgit|GUIのgit管理ソフト|[http://thjap.org/linux/ubuntu/6309.html](http://thjap.org/linux/ubuntu/6309.html)|
+|ScudCloud|slackのクライアントソフト|[http://www.makeuseof.com/tag/linux-loving-slack-users-heres-an-app-for-you/](http://www.makeuseof.com/tag/linux-loving-slack-users-heres-an-app-for-you/)|
 |unrar rar|書庫マネージャをrar対応にさせる|[]()|
 |gparted|パーティション管理ソフト|[]()|
 |wine|Windows用Evernoteを動かすために使用|[]()|
