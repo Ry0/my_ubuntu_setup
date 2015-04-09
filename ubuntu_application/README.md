@@ -20,6 +20,14 @@ cd my_ubuntu_setup/ubuntu_application
 sudo sh ubuntu_application.sh
 ```
 
+※最後の行で以下のように引数`all`をつけるといるのかこれ？っていうようなアプリも入ります  
+下のアプリ一覧の全て入れたい場合のみ3行目を
+
+```bash
+sudo sh ubuntu_application.sh all
+```
+
+にする
 
 ##ubuntu_setup.shの内容
 このスクリプトで入るソフト
@@ -34,7 +42,6 @@ sudo sh ubuntu_application.sh
 |ubuntu-tweak|デフォルトで起動するソフトを拡張子ごとに変更するのに使用|[]()|
 |compizconfig-settings-manager|ウィンドウの最小化、Unity透明化等|[http://ubuntuapps.blog67.fc2.com/blog-entry-634.html](http://ubuntuapps.blog67.fc2.com/blog-entry-634.html)[http://ubuntuapps.blog67.fc2.com/blog-entry-689.html](http://ubuntuapps.blog67.fc2.com/blog-entry-689.html)|
 |unity-tweak-tool|Ubuntuの細かい設定をする|[]()|
-|synaptic|パッケージマネージャ|[]()|
 |gnome-tweak-tool|もうほとんど使わないかも|[]()|
 |fontforge|フォントを結合するとき用|[http://galaxy-shw-m110s.blogspot.jp/2011/12/galaxyflipfontno.html](http://galaxy-shw-m110s.blogspot.jp/2011/12/galaxyflipfontno.html)|
 |nkf|文字コード変換|http://itpro.nikkeibp.co.jp/article/COLUMN/20060227/230849/|
