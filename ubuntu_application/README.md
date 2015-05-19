@@ -32,7 +32,7 @@ sudo sh ubuntu_application.sh all
 このスクリプトで入るアプリケーション  
 ○がついているアプリケーションが引数なしで実行しても入る必須ソフト，無印なものは引数`all`をつけて入るもの
 
-||パッケージ名|説明|参考サイト|
+| |パッケージ名|説明|参考サイト|
 |-:-|:--|:--|:--|
 |○|nemo|プラグインとしてnemo-dropbox nemo-emblems nemo-image-converterが入る|[http://www.webupd8.org/2014/08/nemo-emblems-folder-color-image.html](http://www.webupd8.org/2014/08/nemo-emblems-folder-color-image.html)|
 |○|sublime-text|おすすめエディタ|[http://ry0.github.io/blog/2015/02/15/install-sublimetext2/](http://ry0.github.io/blog/2015/02/15/install-sublimetext2/)|
