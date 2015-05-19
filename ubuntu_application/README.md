@@ -32,7 +32,7 @@ sudo sh ubuntu_application.sh all
 このスクリプトで入るアプリケーション  
 ○がついているアプリケーションが引数なしで実行しても入る必須ソフト，無印なものは引数`all`をつけて入るもの
 
-|引数|パッケージ名|説明|参考サイト|
+|-|パッケージ名|説明|参考サイト|
 |:--|:--|:--|:--|
 |○|nemo|プラグインとしてnemo-dropbox nemo-emblems nemo-image-converterが入る|[http://www.webupd8.org/2014/08/nemo-emblems-folder-color-image.html](http://www.webupd8.org/2014/08/nemo-emblems-folder-color-image.html)|
 |○|sublime-text|おすすめエディタ|[http://ry0.github.io/blog/2015/02/15/install-sublimetext2/](http://ry0.github.io/blog/2015/02/15/install-sublimetext2/)|
@@ -48,25 +48,25 @@ sudo sh ubuntu_application.sh all
 |○|gimp|画像編集|[]()|
 |○|inkscape|作図用|[]()|
 |○|gnuplot|グラフプロット|[]()|
-|-|easystroke|マウスのボタン設定|[http://mimikakimemo.hatenablog.jp/entry/2012/11/24/022457](http://mimikakimemo.hatenablog.jp/entry/2012/11/24/022457)|
-|-|skype|チャットツール|[]()|
-|-|google-chrome-stable|firefoxのサブ|[]()|
+||easystroke|マウスのボタン設定|[http://mimikakimemo.hatenablog.jp/entry/2012/11/24/022457](http://mimikakimemo.hatenablog.jp/entry/2012/11/24/022457)|
+||skype|チャットツール|[]()|
+||google-chrome-stable|firefoxのサブ|[]()|
 |○|kazam|画面キャプチャーソフト|[]()|
-|-|audacious|高音質？音楽プレーヤ|[http://blog.goo.ne.jp/hiros-pc/e/c7a272e8c4eb2396225fa1a9dd6e1639](http://blog.goo.ne.jp/hiros-pc/e/c7a272e8c4eb2396225fa1a9dd6e1639)|
+||audacious|高音質？音楽プレーヤ|[http://blog.goo.ne.jp/hiros-pc/e/c7a272e8c4eb2396225fa1a9dd6e1639](http://blog.goo.ne.jp/hiros-pc/e/c7a272e8c4eb2396225fa1a9dd6e1639)|
 |○|vlc|定番動画プレイヤー|[]()|
-|-|smplayer|vlcでは再生がうまくできなかったときの控え選手|[]()|
-|-|pcsx2|PS2エミュレータ|[]()|
-|-|GRhino|オセロゲーム。リフレッシュにでも|[]()|
-|-|indicator-multiload|システム情報をパネルに表示|[http://ubuntuapps.blog67.fc2.com/blog-entry-281.html](http://ubuntuapps.blog67.fc2.com/blog-entry-281.html)|
-|-|indicator-sensors|タスクバーにCPU、グラボの温度、ファンの負荷を表示|[http://techlack.hatenablog.com/entry/2015/02/03/075501](http://techlack.hatenablog.com/entry/2015/02/03/075501)|
-|-|indicator-sound-switcher|タスクバーから音声出力を切り替え|[http://moebuntu.blog48.fc2.com/blog-entry-748.html](http://moebuntu.blog48.fc2.com/blog-entry-748.html)
+||smplayer|vlcでは再生がうまくできなかったときの控え選手|[]()|
+||pcsx2|PS2エミュレータ|[]()|
+||GRhino|オセロゲーム。リフレッシュにでも|[]()|
+||indicator-multiload|システム情報をパネルに表示|[http://ubuntuapps.blog67.fc2.com/blog-entry-281.html](http://ubuntuapps.blog67.fc2.com/blog-entry-281.html)|
+||indicator-sensors|タスクバーにCPU、グラボの温度、ファンの負荷を表示|[http://techlack.hatenablog.com/entry/2015/02/03/075501](http://techlack.hatenablog.com/entry/2015/02/03/075501)|
+||indicator-sound-switcher|タスクバーから音声出力を切り替え|[http://moebuntu.blog48.fc2.com/blog-entry-748.html](http://moebuntu.blog48.fc2.com/blog-entry-748.html)
 |○|exfat-fuse exfat-utils|ストレージのexfatフォーマットに対応|[]()|
 |○|smartgit|GUIのgit管理ソフト|[http://thjap.org/linux/ubuntu/6309.html](http://thjap.org/linux/ubuntu/6309.html)|
 |○|ScudCloud|slackのクライアントソフト|[http://www.makeuseof.com/tag/linux-loving-slack-users-heres-an-app-for-you/](http://www.makeuseof.com/tag/linux-loving-slack-users-heres-an-app-for-you/)|
-|-|Solaar|Logicoolの無線マウスのバッテリー確認等|[http://blog.keshi.org/hogememo/2013/11/04/solaar-using-logitech-unifying-in-linux](http://blog.keshi.org/hogememo/2013/11/04/solaar-using-logitech-unifying-in-linux)|
+||Solaar|Logicoolの無線マウスのバッテリー確認等|[http://blog.keshi.org/hogememo/2013/11/04/solaar-using-logitech-unifying-in-linux](http://blog.keshi.org/hogememo/2013/11/04/solaar-using-logitech-unifying-in-linux)|
 |○|unrar rar|書庫マネージャをrar対応にさせる|[]()|
 |○|gparted|パーティション管理ソフト|[]()|
-|-|wine|Windows用Evernoteを動かすために使用|[]()|
+||wine|Windows用Evernoteを動かすために使用|[]()|
 |○|oracle-java8-installer|javaがないと動かないソフトもあるので一応|[]()|
 
 wineとjavaに関しては途中で同意が必要  
