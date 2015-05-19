@@ -28,6 +28,8 @@ yes | sudo add-apt-repository ppa:otto-kesselgulasch/gimp
 yes | sudo add-apt-repository ppa:eugenesan/ppa
 #slack
 yes | sudo apt-add-repository ppa:rael-gc/scudcloud
+#solaar
+yes | sudo add-apt-repository ppa:daniel.pavel/solaar
 #Oracle Java 8
 yes | sudo add-apt-repository ppa:webupd8team/java
 
@@ -84,6 +86,7 @@ if [ "${arg}" = "all" ]; then
   sudo apt-get -yV install google-chrome-stable
   sudo apt-get -yV install audacious
   sudo apt-get -yV install smplayer
+  sudo apt-get -yV install solaar
   sudo apt-get -yV install pcsx2
   sudo apt-get -yV install grhino
   sudo apt-get -yV install indicator-multiload

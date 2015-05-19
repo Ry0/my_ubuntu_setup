@@ -5,7 +5,6 @@
 env LANGUAGE=C LC_MESSAGES=C xdg-user-dirs-gtk-update
 ```
 
-
 ![img](./img/user_folder_name.png)  
 ##ubuntu_setup.shの実行
 * 環境 Ubuntu 14.04 64bit
@@ -30,43 +29,45 @@ sudo sh ubuntu_application.sh all
 にする
 
 ##ubuntu_setup.shの内容
-このスクリプトで入るソフト
+このスクリプトで入るアプリケーション  
+○がついているアプリケーションが引数なしで実行しても入る必須ソフト，無印なものは引数`all`をつけて入るもの
 
-|パッケージ名|説明|参考サイト|
-|:--|:--|:--|
-|nemo|プラグインとしてnemo-dropbox nemo-emblems nemo-image-converterが入る|[http://www.webupd8.org/2014/08/nemo-emblems-folder-color-image.html](http://www.webupd8.org/2014/08/nemo-emblems-folder-color-image.html)|
-|sublime-text|おすすめエディタ|[http://ry0.github.io/blog/2015/02/15/install-sublimetext2/](http://ry0.github.io/blog/2015/02/15/install-sublimetext2/)|
-|emacs24|定番エディタ|[]()|
-|meld|差分ビューア|[]()|
-|terminator|標準ターミナルの拡張版|[]()|
-|ubuntu-tweak|デフォルトで起動するソフトを拡張子ごとに変更するのに使用|[]()|
-|compizconfig-settings-manager|ウィンドウの最小化、Unity透明化等|[http://ubuntuapps.blog67.fc2.com/blog-entry-634.html](http://ubuntuapps.blog67.fc2.com/blog-entry-634.html)[http://ubuntuapps.blog67.fc2.com/blog-entry-689.html](http://ubuntuapps.blog67.fc2.com/blog-entry-689.html)|
-|unity-tweak-tool|Ubuntuの細かい設定をする|[]()|
-|gnome-tweak-tool|もうほとんど使わないかも|[]()|
-|fontforge|フォントを結合するとき用|[http://galaxy-shw-m110s.blogspot.jp/2011/12/galaxyflipfontno.html](http://galaxy-shw-m110s.blogspot.jp/2011/12/galaxyflipfontno.html)|
-|nkf|文字コード変換|http://itpro.nikkeibp.co.jp/article/COLUMN/20060227/230849/|
-|gimp|画像編集|[]()|
-|inkscape|作図用|[]()|
-|gnuplot|グラフプロット|[]()|
-|easystroke|マウスのボタン設定|[http://mimikakimemo.hatenablog.jp/entry/2012/11/24/022457](http://mimikakimemo.hatenablog.jp/entry/2012/11/24/022457)|
-|skype|チャットツール|[]()|
-|google-chrome-stable|firefoxのサブ|[]()|
-|kazam|画面キャプチャーソフト|[]()|
-|audacious|高音質？音楽プレーヤ|[http://blog.goo.ne.jp/hiros-pc/e/c7a272e8c4eb2396225fa1a9dd6e1639](http://blog.goo.ne.jp/hiros-pc/e/c7a272e8c4eb2396225fa1a9dd6e1639)|
-|vlc|定番動画プレイヤー|[]()|
-|smplayer|vlcでは再生がうまくできなかったときの控え選手|[]()|
-|pcsx2|PS2エミュレータ|[]()|
-|GRhino|オセロゲーム。リフレッシュにでも|[]()|
-|indicator-multiload|システム情報をパネルに表示|[http://ubuntuapps.blog67.fc2.com/blog-entry-281.html](http://ubuntuapps.blog67.fc2.com/blog-entry-281.html)|
-|indicator-sensors|タスクバーにCPU、グラボの温度、ファンの負荷を表示|[http://techlack.hatenablog.com/entry/2015/02/03/075501](http://techlack.hatenablog.com/entry/2015/02/03/075501)|
-|indicator-sound-switcher|タスクバーから音声出力を切り替え|[http://moebuntu.blog48.fc2.com/blog-entry-748.html](http://moebuntu.blog48.fc2.com/blog-entry-748.html)
-|exfat-fuse exfat-utils|ストレージのexfatフォーマットに対応|[]()|
-|smartgit|GUIのgit管理ソフト|[http://thjap.org/linux/ubuntu/6309.html](http://thjap.org/linux/ubuntu/6309.html)|
-|ScudCloud|slackのクライアントソフト|[http://www.makeuseof.com/tag/linux-loving-slack-users-heres-an-app-for-you/](http://www.makeuseof.com/tag/linux-loving-slack-users-heres-an-app-for-you/)|
-|unrar rar|書庫マネージャをrar対応にさせる|[]()|
-|gparted|パーティション管理ソフト|[]()|
-|wine|Windows用Evernoteを動かすために使用|[]()|
-|oracle-java8-installer|javaがないと動かないソフトもあるので一応|[]()|
+||パッケージ名|説明|参考サイト|
+|-:-|:--|:--|:--|
+|○|nemo|プラグインとしてnemo-dropbox nemo-emblems nemo-image-converterが入る|[http://www.webupd8.org/2014/08/nemo-emblems-folder-color-image.html](http://www.webupd8.org/2014/08/nemo-emblems-folder-color-image.html)|
+|○|sublime-text|おすすめエディタ|[http://ry0.github.io/blog/2015/02/15/install-sublimetext2/](http://ry0.github.io/blog/2015/02/15/install-sublimetext2/)|
+|○|emacs24|定番エディタ|[]()|
+|○|meld|差分ビューア|[]()|
+|○|terminator|標準ターミナルの拡張版|[]()|
+|○|ubuntu-tweak|デフォルトで起動するソフトを拡張子ごとに変更するのに使用|[]()|
+|○|compizconfig-settings-manager|ウィンドウの最小化、Unity透明化等|[http://ubuntuapps.blog67.fc2.com/blog-entry-634.html](http://ubuntuapps.blog67.fc2.com/blog-entry-634.html)[http://ubuntuapps.blog67.fc2.com/blog-entry-689.html](http://ubuntuapps.blog67.fc2.com/blog-entry-689.html)|
+|○|unity-tweak-tool|Ubuntuの細かい設定をする|[]()|
+|○|gnome-tweak-tool|もうほとんど使わないかも|[]()|
+||fontforge|フォントを結合するとき用|[http://galaxy-shw-m110s.blogspot.jp/2011/12/galaxyflipfontno.html](http://galaxy-shw-m110s.blogspot.jp/2011/12/galaxyflipfontno.html)|
+|○|nkf|文字コード変換|http://itpro.nikkeibp.co.jp/article/COLUMN/20060227/230849/|
+|○|gimp|画像編集|[]()|
+|○|inkscape|作図用|[]()|
+|○|gnuplot|グラフプロット|[]()|
+||easystroke|マウスのボタン設定|[http://mimikakimemo.hatenablog.jp/entry/2012/11/24/022457](http://mimikakimemo.hatenablog.jp/entry/2012/11/24/022457)|
+||skype|チャットツール|[]()|
+||google-chrome-stable|firefoxのサブ|[]()|
+|○|kazam|画面キャプチャーソフト|[]()|
+||audacious|高音質？音楽プレーヤ|[http://blog.goo.ne.jp/hiros-pc/e/c7a272e8c4eb2396225fa1a9dd6e1639](http://blog.goo.ne.jp/hiros-pc/e/c7a272e8c4eb2396225fa1a9dd6e1639)|
+|○|vlc|定番動画プレイヤー|[]()|
+||smplayer|vlcでは再生がうまくできなかったときの控え選手|[]()|
+||pcsx2|PS2エミュレータ|[]()|
+||GRhino|オセロゲーム。リフレッシュにでも|[]()|
+||indicator-multiload|システム情報をパネルに表示|[http://ubuntuapps.blog67.fc2.com/blog-entry-281.html](http://ubuntuapps.blog67.fc2.com/blog-entry-281.html)|
+||indicator-sensors|タスクバーにCPU、グラボの温度、ファンの負荷を表示|[http://techlack.hatenablog.com/entry/2015/02/03/075501](http://techlack.hatenablog.com/entry/2015/02/03/075501)|
+||indicator-sound-switcher|タスクバーから音声出力を切り替え|[http://moebuntu.blog48.fc2.com/blog-entry-748.html](http://moebuntu.blog48.fc2.com/blog-entry-748.html)
+|○|exfat-fuse exfat-utils|ストレージのexfatフォーマットに対応|[]()|
+|○|smartgit|GUIのgit管理ソフト|[http://thjap.org/linux/ubuntu/6309.html](http://thjap.org/linux/ubuntu/6309.html)|
+|○|ScudCloud|slackのクライアントソフト|[http://www.makeuseof.com/tag/linux-loving-slack-users-heres-an-app-for-you/](http://www.makeuseof.com/tag/linux-loving-slack-users-heres-an-app-for-you/)|
+||Solaar|Logicoolの無線マウスのバッテリー確認等|[http://blog.keshi.org/hogememo/2013/11/04/solaar-using-logitech-unifying-in-linux](http://blog.keshi.org/hogememo/2013/11/04/solaar-using-logitech-unifying-in-linux)|
+|○|unrar rar|書庫マネージャをrar対応にさせる|[]()|
+|○|gparted|パーティション管理ソフト|[]()|
+||wine|Windows用Evernoteを動かすために使用|[]()|
+|○|oracle-java8-installer|javaがないと動かないソフトもあるので一応|[]()|
 
 wineとjavaに関しては途中で同意が必要  
 あと最後以下のようなメッセージが出たら、`Enter`を押す。
@@ -205,3 +206,14 @@ Download firefox develop edition
 sudo cp -r /from_where_it_is /opt/firefox_dev
 gnome-desktop-item-edit ~/.local/share/applications --create-new
 ```
+
+###SolaarでLogicoolの接続が認識されないとき
+参考ページ： [http://blog.keshi.org/hogememo/2013/11/04/solaar-using-logitech-unifying-in-linux](http://blog.keshi.org/hogememo/2013/11/04/solaar-using-logitech-unifying-in-linux)
+
+```bash
+sudo dpkg-reconfigure -plow solaar
+```
+
+![img](./img/solaar.jpg)  
+
+
