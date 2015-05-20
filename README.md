@@ -27,3 +27,6 @@ sudo apt-get install libpcl-all
 ## TeXのインストール
 
 [tex_install](./tex_install/README.md)
+
+## Sublime Text 2のインストールと設定
+[sublime_install](./sublime_install/README.md)
