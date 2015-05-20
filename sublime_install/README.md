@@ -42,9 +42,6 @@ mv Context.sublime-menu ~/.config/sublime-text-2/Packages/Default
 ##TeXをつかう
 [http://ry0.github.io/blog/2015/01/17/sublime-tex/](http://ry0.github.io/blog/2015/01/17/sublime-tex/)
 
-##C/C++の文法チェック
-[http://cirkitrwrc.blogspot.jp/2014/10/sublime-text-2ccubuntu-1404-lts.html](http://cirkitrwrc.blogspot.jp/2014/10/sublime-text-2ccubuntu-1404-lts.html)
-
 ##その他プラグイン
 その他プラグインについては
 [http://ry0.github.io/blog/2015/02/15/install-sublimetext2/](http://ry0.github.io/blog/2015/02/15/install-sublimetext2/)
