@@ -93,6 +93,7 @@ if [ "${arg}" = "all" ]; then
   sudo apt-get -yV install indicator-sensors
   sudo apt-get -yV install indicator-sound-switcher
   sudo apt-get -yV install wine
+  sudo apt-get -yV install gprename
 fi
 
 #nemoの設定

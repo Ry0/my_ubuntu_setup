@@ -68,6 +68,7 @@ sudo sh ubuntu_application.sh all
 |○|gparted|パーティション管理ソフト|[]()|
 ||wine|Windows用Evernoteを動かすために使用|[]()|
 |○|oracle-java8-installer|javaがないと動かないソフトもあるので一応|[]()|
+||gprename|一括で名前を変更するやつ|[http://kledgeb.blogspot.jp/2015/01/ubuntu-gprename-1-gprenameui.html](http://kledgeb.blogspot.jp/2015/01/ubuntu-gprename-1-gprenameui.html)|
 
 wineとjavaに関しては途中で同意が必要  
 あと最後以下のようなメッセージが出たら、`Enter`を押す。
