@@ -1,5 +1,5 @@
 # インストールするOpenCVのバージョン
-OPENCV_VERSION="2.4.10"
+OPENCV_VERSION="3.0.0"
 # 最初は前提ソフトウェアのインストール
 sudo apt-get -yV install build-essential
 
