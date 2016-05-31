@@ -39,7 +39,6 @@ sudo apt-get -yV install libvo-amrwbenc-dev
 sudo apt-get -yV install libvorbis-dev
 sudo apt-get -yV install libvpx-dev
 
-cd ~/Downloads
 wget http://sourceforge.net/projects/opencvlibrary/files/opencv-unix/${OPENCV_VERSION}/opencv-${OPENCV_VERSION}.zip
 unzip opencv-${OPENCV_VERSION}.zip
 cd opencv-${OPENCV_VERSION}
