@@ -68,6 +68,7 @@ sudo apt-get -yV install simplescreenrecorder
 sudo apt-get -yV install notify-osd
 sudo apt-get -yV install dconf-editor
 sudo apt-get -yV install remmina
+sudo apt-get -yV install psensor
 
 #nemoの設定
 xdg-mime default nemo.desktop inode/directory application/x-gnome-saved-search
